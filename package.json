@@ -1,0 +1,8 @@
+{
+  "name": "git-flow",
+  "version": "0.0.0-PLACEHOLDER",
+  "license": "ISC",
+  "devDependencies": {
+    "@jmlopez-rod/m": "0.0.0-pr13.b1188418542"
+  }
+}
