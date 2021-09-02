@@ -8,6 +8,10 @@ The project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.2.2] <a name="0.2.2" href="#0.2.2">-</a> September 01, 2021
+- Update m - Renames the release scripts
+
+
 ## [0.2.1] <a name="0.2.1" href="#0.2.1">-</a> August 31, 2021
 - Add hotfix instructions
 
@@ -23,7 +27,8 @@ The project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 ## [0.1.0] <a name="0.1.0" href="#0.1.0">-</a> August 31, 2021
 - First release
 
-[unreleased]: https://github.com/jmlopez-rod/git-flow/compare/0.2.1...HEAD
+[unreleased]: https://github.com/jmlopez-rod/git-flow/compare/0.2.2...HEAD
+[0.2.2]: https://github.com/jmlopez-rod/git-flow/compare/0.2.1...0.2.2
 [0.2.1]: https://github.com/jmlopez-rod/git-flow/compare/0.2.0...0.2.1
 [0.2.0]: https://github.com/jmlopez-rod/git-flow/compare/0.1.1...0.2.0
 [0.1.1]: https://github.com/jmlopez-rod/git-flow/compare/0.1.0...0.1.1
