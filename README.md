@@ -26,3 +26,7 @@ From the `master` branch:
 First merge the pr with title `(hotfix) x.x.x`. After the build is
 succesful and a new artifact has been published. Merge the next one
 with the title `(hotfix to develop) x.x.x`.
+
+## Status
+
+Branch protections can be created in order to prevent developers from merging.
