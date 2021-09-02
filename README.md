@@ -6,23 +6,19 @@ Repository to showcase the usage of m.
 
 From the `develop` branch:
 
-1. run `releaseSetup.sh`
+1. run `startRelease.sh`
 2. Edit CHANGELOG.md
-3. run `submitReleasePullRequest.sh`.
-
-First merge the pr with title `(release) x.x.x`. After the build is
-succesful and a new artifact has been published. Merge the next one
-with the title `(release to develop) x.x.x`.
+3. run `reviewRelease.sh`.
+4. Wait for reviewers to approve and continue making changes if necessary.
+5. run `endRelease.sh`.
 
 ## Hotfixes
 
 From the `master` branch:
 
-1. run `hotfixSetup.sh`.
+1. run `startHotfix.sh`.
 2. Edit CHANGELOG.md
 3. Fix the issues
-4. run `submitReleasePullRequest.sh`.
-
-First merge the pr with title `(hotfix) x.x.x`. After the build is
-succesful and a new artifact has been published. Merge the next one
-with the title `(hotfix to develop) x.x.x`.
+4. run `reviewRelease.sh`.
+5. Wait for reviewers to approve and continue making changes if necessary.
+6. run `endRelease.sh`.
