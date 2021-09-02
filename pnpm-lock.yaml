@@ -1,13 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@jmlopez-rod/m': 0.0.0-pr13.b1192723950
+  '@jmlopez-rod/m': 0.3.0
 
 devDependencies:
-  '@jmlopez-rod/m': 0.0.0-pr13.b1192723950
+  '@jmlopez-rod/m': 0.3.0
 
 packages:
 
-  /@jmlopez-rod/m/0.0.0-pr13.b1192723950:
-    resolution: {integrity: sha512-/YlIQIkJhogKzLrEa8sOOPAVwnoUz7jySQFm+RImZtXwyDhJ+zHrpftJd0ljnmIw5fLbCizfCg65NBxdo4+ytA==, tarball: download/@jmlopez-rod/m/0.0.0-pr13.b1192723950/e8e5214df21e4ef810821720641c84c5035a19a79f22d3f5460e135cd9243681}
+  /@jmlopez-rod/m/0.3.0:
+    resolution: {integrity: sha512-IsmlyJZTRu5ckR7kV2RtInOB4Yul8uLR4FX0y5p0cNUXqE0EKo+gLHbPjn6HRCSR3RkeVvCQ3u5HtPAAAVoDbw==, tarball: download/@jmlopez-rod/m/0.3.0/47c1567f9ed7703d234bba9a356d6c3d0ca28a3c545460ada87bdcabbf15ca2a}
     dev: true

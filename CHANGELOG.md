@@ -8,6 +8,10 @@ The project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.5.0] <a name="0.5.0" href="#0.5.0">-</a> September 02, 2021
+- Added topic/trash2 entry to trash.md
+
+
 ## [0.4.0] <a name="0.4.0" href="#0.4.0">-</a> September 01, 2021
 - Added topic/trash1 entry to trash.md
 
@@ -43,7 +47,8 @@ The project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 ## [0.1.0] <a name="0.1.0" href="#0.1.0">-</a> August 31, 2021
 - First release
 
-[unreleased]: https://github.com/jmlopez-rod/git-flow/compare/0.4.0...HEAD
+[unreleased]: https://github.com/jmlopez-rod/git-flow/compare/0.5.0...HEAD
+[0.5.0]: https://github.com/jmlopez-rod/git-flow/compare/0.4.0...0.5.0
 [0.4.0]: https://github.com/jmlopez-rod/git-flow/compare/0.3.1...0.4.0
 [0.3.1]: https://github.com/jmlopez-rod/git-flow/compare/0.3.0...0.3.1
 [0.3.0]: https://github.com/jmlopez-rod/git-flow/compare/0.2.3...0.3.0
