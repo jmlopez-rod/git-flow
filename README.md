@@ -30,3 +30,7 @@ with the title `(hotfix to develop) x.x.x`.
 ## Status
 
 Branch protections can be created in order to prevent developers from merging.
+A `release-review` status check is created when we run `reviewRelease.sh`.
+We need to make sure that merging into develop is blocked only when a release
+or hotfix branch are trying to be merged into it by making sure that the
+`release-review` is required.
