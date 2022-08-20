@@ -1,0 +1,15 @@
+name: Dynamic workflow
+
+on:
+  workflow_call:
+
+
+jobs:
+  docker_build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step 1
+        run: echo 'step 1'
+      
+      - name: step 2
+        run: echo 'step 2'
