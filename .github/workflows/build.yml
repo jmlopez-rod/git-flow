@@ -10,10 +10,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  docker-build:
-    uses: ./m/madeup
-    secrets: inherit
-
   build:
     runs-on: ubuntu-latest
     env:
@@ -34,4 +30,13 @@ jobs:
       - name: Checks
         run: |
           ./build/build.sh
+      - name: copy-workflow
+        run: cp .github/workflows/madeup.yml .github/workflows/madeup2.yml
 
+  docker-build:
+    uses: ./.github/workflows/madeup
+    secrets: inherit
+  
+  # docker-build:
+  #   uses: ./.github/workflows/madeup
+  #   secrets: inherit
