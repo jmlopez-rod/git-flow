@@ -10,6 +10,10 @@ on:
   workflow_dispatch:
 
 jobs:
+  docker-build:
+    uses: ./m/madeup
+    secrets: inherit
+
   build:
     runs-on: ubuntu-latest
     env:
