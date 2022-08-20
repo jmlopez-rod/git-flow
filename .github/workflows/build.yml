@@ -34,9 +34,11 @@ jobs:
         run: cp .github/workflows/madeup.yml .github/workflows/madeup2.yml
 
   docker-build:
+    needs: build
     uses: ./.github/workflows/madeup.yml
     secrets: inherit
   
-  # docker-build:
-  #   uses: ./.github/workflows/madeup2.yml
-  #   secrets: inherit
+  docker-build:
+    needs: docker-build
+    uses: ./.github/workflows/madeup2.yml
+    secrets: inherit
