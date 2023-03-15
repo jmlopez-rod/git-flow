@@ -8,50 +8,56 @@ The project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.6.0] <a name="0.6.0" href="#0.6.0">-</a> March 15, 2023
+
+- verifying release works with the git flow
+
 ## [0.5.1] <a name="0.5.1" href="#0.5.1">-</a> September 02, 2021
+
 - Fix startRelease.sh with m@0.3.1
 
-
 ## [0.5.0] <a name="0.5.0" href="#0.5.0">-</a> September 02, 2021
+
 - Added topic/trash2 entry to trash.md
 
-
 ## [0.4.0] <a name="0.4.0" href="#0.4.0">-</a> September 01, 2021
+
 - Added topic/trash1 entry to trash.md
 
-
 ## [0.3.1] <a name="0.3.1" href="#0.3.1">-</a> September 01, 2021
+
 - Added trash.md to continue making modifications with it.
 
-
 ## [0.3.0] <a name="0.3.0" href="#0.3.0">-</a> September 01, 2021
+
 - Release instructions have been written in the README.md
 
-
 ## [0.2.3] <a name="0.2.3" href="#0.2.3">-</a> September 01, 2021
+
 - Update m - endRelease.sh is fixed
 
-
 ## [0.2.2] <a name="0.2.2" href="#0.2.2">-</a> September 01, 2021
+
 - Update m - Renames the release scripts
 
-
 ## [0.2.1] <a name="0.2.1" href="#0.2.1">-</a> August 31, 2021
+
 - Add hotfix instructions
 
-
 ## [0.2.0] <a name="0.2.0" href="#0.2.0">-</a> August 31, 2021
+
 - Add release instructions
 
-
 ## [0.1.1] <a name="0.1.1" href="#0.1.1">-</a> August 31, 2021
+
 - Update m - fixes issues with develop branch failing after releases
 
-
 ## [0.1.0] <a name="0.1.0" href="#0.1.0">-</a> August 31, 2021
+
 - First release
 
-[unreleased]: https://github.com/jmlopez-rod/git-flow/compare/0.5.1...HEAD
+[unreleased]: https://github.com/jmlopez-rod/git-flow/compare/0.6.0...HEAD
+[0.6.0]: https://github.com/jmlopez-rod/git-flow/compare/0.5.1...0.6.0
 [0.5.1]: https://github.com/jmlopez-rod/git-flow/compare/0.5.0...0.5.1
 [0.5.0]: https://github.com/jmlopez-rod/git-flow/compare/0.4.0...0.5.0
 [0.4.0]: https://github.com/jmlopez-rod/git-flow/compare/0.3.1...0.4.0
