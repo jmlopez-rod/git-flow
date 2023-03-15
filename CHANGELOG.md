@@ -8,6 +8,10 @@ The project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
 
+## [0.7.0] <a name="0.7.0" href="#0.7.0">-</a> March 15, 2023
+
+- testing release with m hotfixes
+
 ## [0.6.0] <a name="0.6.0" href="#0.6.0">-</a> March 15, 2023
 
 - verifying release works with the git flow
@@ -56,7 +60,8 @@ The project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 - First release
 
-[unreleased]: https://github.com/jmlopez-rod/git-flow/compare/0.6.0...HEAD
+[unreleased]: https://github.com/jmlopez-rod/git-flow/compare/0.7.0...HEAD
+[0.7.0]: https://github.com/jmlopez-rod/git-flow/compare/0.6.0...0.7.0
 [0.6.0]: https://github.com/jmlopez-rod/git-flow/compare/0.5.1...0.6.0
 [0.5.1]: https://github.com/jmlopez-rod/git-flow/compare/0.5.0...0.5.1
 [0.5.0]: https://github.com/jmlopez-rod/git-flow/compare/0.4.0...0.5.0
