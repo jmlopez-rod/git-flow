@@ -1,8 +1,12 @@
 {
   "name": "git_flow DevContainer",
-  "image": "python:3.10.9-slim-bullseye",
+  "image": "ghcr.io/jmlopez-rod/m-devcontainer:latest",
   "runArgs": ["--rm", "--network=host", "--name=git_flow-devcontainer"],
   "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+  "containerEnv": {
+    "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}",
+    "CONTAINER_WORKSPACE": "${containerWorkspaceFolder}"
+  },
   "mounts": [
     "source=m-vscode-server-extensions,target=/root/.vscode-server/extensions,type=volume",
     "source=m-vscode-server-extensions-insiders,target=/root/.vscode-server-insiders/extensions,type=volume"
